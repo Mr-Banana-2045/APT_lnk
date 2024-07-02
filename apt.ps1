@@ -4,7 +4,7 @@ Add-Type -AssemblyName System.Drawing
 $form = New-Object Windows.Forms.Form
 $form.Text = "APT LNK"
 $form.Size = New-Object Drawing.Size(500, 600)
-$form.Icon = New-Object system.drawing.icon("C:\Users\hooma\OneDrive\Desktop\living-off-the-land-circle.ico")
+$form.Icon = New-Object system.drawing.icon("C:\Users\....\Desktop\living-off-the-land-circle.ico")
 $form.BackColor = '#000000'
 
 $label = New-Object Windows.Forms.Label
